@@ -6,4 +6,6 @@ pop_tidy |>
 
 #Hello!
 
+# new line
+
 ggsave("graphs/pop_by_month.png")
