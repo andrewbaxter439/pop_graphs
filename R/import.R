@@ -3,7 +3,7 @@ library(tidyverse)
 population <- read_csv("data/lfs_pop.csv", skip = 8,
                        col_names = c("Year", "Population.England.Wales"))
 
-
+# A change
 
 pop_tidy <- population |>
   mutate(pop = Population.England.Wales * 1000) |> 
